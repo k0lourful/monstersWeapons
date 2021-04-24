@@ -4,6 +4,6 @@ class Weapon;
 
 class Player: public Entity {
 public:
-    Player(int h, int d, Weapon* w) : Entity(h,d,w) {}
+    Player(const int& h, const int& d, Weapon* w) : Entity(h,d,w) {}
     int attack(Entity* monster);
 };
