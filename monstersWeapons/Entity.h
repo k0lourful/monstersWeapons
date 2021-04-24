@@ -8,6 +8,9 @@ protected:
     Weapon* weapon;
 
 public:
-    Entity(int h, int d, Weapon* w) : health(h), damage(d), weapon(w) {}
+    Entity(const int& h, const int& d, Weapon* w) : health(h), damage(d), weapon(w) {}
+    ~Entity() { if (weapon) delete weapon; }
+
+    void reduceHealth(const int& dmg) { health -= dmg; }
     virtual int attack(Entity*) = 0;
 };
