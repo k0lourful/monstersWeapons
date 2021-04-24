@@ -1,9 +1,9 @@
-#include "Game.h"
-#include "weakMonster.h"
-#include "normalMonster.h"
-#include "strongMonster.h"
-#include "Player.h"
-#include "Weapon.h"
+#include "Game.hpp"
+#include "weakMonster.hpp"
+#include "normalMonster.hpp"
+#include "strongMonster.hpp"
+#include "Player.hpp"
+#include "Weapon.hpp"
 #include <iostream>
 
 void Game::createEntities() {

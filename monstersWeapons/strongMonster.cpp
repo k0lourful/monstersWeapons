@@ -1,5 +1,5 @@
-#include "strongMonster.h"
-#include "Weapon.h"
+#include "strongMonster.hpp"
+#include "Weapon.hpp"
 
 int strongMonster::attack(Entity* player) {
     int dealtDmg = 0;

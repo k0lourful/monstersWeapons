@@ -21,23 +21,22 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="normalMonster.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="strongMonster.cpp" />
     <ClCompile Include="weakMonster.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clearScreen.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Monster.h" />
-    <ClInclude Include="normalMonster.h" />
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="strongMonster.h" />
-    <ClInclude Include="weakMonster.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="clearScreen.hpp" />
+    <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Monster.hpp" />
+    <ClInclude Include="normalMonster.hpp" />
+    <ClInclude Include="pch.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="strongMonster.hpp" />
+    <ClInclude Include="weakMonster.hpp" />
+    <ClInclude Include="Weapon.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

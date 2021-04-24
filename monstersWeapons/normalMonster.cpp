@@ -1,5 +1,5 @@
-#include "normalMonster.h"
-#include "Weapon.h"
+#include "normalMonster.hpp"
+#include "Weapon.hpp"
 
 int normalMonster::attack(Entity* player) {
     int dealtDmg = 0;
