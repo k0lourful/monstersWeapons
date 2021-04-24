@@ -19,18 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="normalMonster.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="strongMonster.cpp" />
     <ClCompile Include="weakMonster.cpp" />
-    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clearScreen.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="normalMonster.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="strongMonster.h" />
     <ClInclude Include="weakMonster.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>
