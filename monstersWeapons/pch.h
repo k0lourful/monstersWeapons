@@ -1,3 +1,3 @@
 #pragma once
-#include "weakMonster.h"
-#include "Player.h"
+#include <iostream>
+#include "Game.h"
