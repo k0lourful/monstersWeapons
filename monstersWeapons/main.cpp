@@ -1,8 +1,10 @@
-﻿#include <iostream>
-#include "pch.h"
+﻿#include "pch.h"
 
 int main() {
-    Player *p = new Player(1,1,nullptr);
-    Monster* monsters = { new weakMonster(1,1,nullptr) };
-    monsters[0].attack(p);
+    Game game;
+    int retCode = game.Run();
+    if (!retCode)
+        std::cout << "Game shut down incorrectly. Error code: " << retCode << "\n\n";
+
+    return 0;
 }
