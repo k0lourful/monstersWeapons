@@ -1,16 +1,18 @@
 #pragma once
+#include <vector>
 class Player;
 class Monster;
 
 class Game {
 private:
+    int enemiesNumber;
     Player* player;
-    Monster* enemies;
+    std::vector<Monster*> enemies;
 
-    void createEntities();
+    void createEntities(const short& monstersNumber);
 
 public:
-    Game();
+    ~Game();
     int Run();
 
 };
