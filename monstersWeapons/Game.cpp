@@ -62,6 +62,10 @@ void Game::randomiseMonsters() {
                     weaponDamage = probability / 10;
                     durability = 5 + probability / 10;
                 }
+                else {
+                    weaponDamage = 10 + probability / 3;
+                    durability = 12 + probability / 5;
+                }
                 weapon = new Weapon(weaponDamage, durability);
             }
 
@@ -106,6 +110,10 @@ void Game::randomiseMonsters() {
                 if (probability > 30) {
                     weaponDamage = probability / 10;
                     durability = 5 + probability / 10;
+                }
+                else {
+                    weaponDamage = 10 + probability / 3;
+                    durability = 12 + probability / 5;
                 }
                 weapon = new Weapon(weaponDamage, durability);
             }
