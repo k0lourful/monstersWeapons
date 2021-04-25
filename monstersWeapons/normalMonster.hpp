@@ -3,7 +3,6 @@
 
 class normalMonster : public Monster {
 public:
-    normalMonster(const int& h, const int& d, Weapon* w) : Monster(h, d, w) {}
+    normalMonster(const int& h, const int& d, Weapon* w) : Monster(h, d, w, NORMALMONSTER) {}
     int attack(Entity*);
 };
-
