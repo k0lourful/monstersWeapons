@@ -6,7 +6,7 @@ int Player::attack(Entity* monster) {
     if (weapon) {
         dealtDmg = damage + 0.5 * weapon->getDamage();
         weapon->reduceDurability(3);
-        if (!weapon->getDurability()) {
+        if (weapon->getDurability() <= 0) {
             delete weapon;
             weapon = nullptr;
         }

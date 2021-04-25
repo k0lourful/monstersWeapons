@@ -6,7 +6,7 @@ int weakMonster::attack(Entity* player) {
     if (weapon) {
         dealtDmg = 0.4 * damage + 0.5*weapon->getDamage();
         weapon->reduceDurability(5);
-        if (!weapon->getDurability()) {
+        if (weapon->getDurability() <= 0) {
             delete weapon;
             weapon = nullptr;
         }
