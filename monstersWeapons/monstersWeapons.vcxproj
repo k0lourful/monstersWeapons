@@ -21,21 +21,25 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="normalMonster.cpp" />
+    <ClCompile Include="NormalMonster.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="strongMonster.cpp" />
-    <ClCompile Include="weakMonster.cpp" />
+    <ClCompile Include="StrongMonster.cpp" />
+    <ClCompile Include="WeakMonster.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clearScreen.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="Monster.hpp" />
-    <ClInclude Include="normalMonster.hpp" />
+    <ClInclude Include="MonsterCreator.hpp" />
+    <ClInclude Include="NormalMonster.hpp" />
+    <ClInclude Include="NormalMonsterCreator.hpp" />
     <ClInclude Include="pch.hpp" />
     <ClInclude Include="Player.hpp" />
-    <ClInclude Include="strongMonster.hpp" />
-    <ClInclude Include="weakMonster.hpp" />
+    <ClInclude Include="StrongMonster.hpp" />
+    <ClInclude Include="StrongMonsterCreator.hpp" />
+    <ClInclude Include="WeakMonster.hpp" />
+    <ClInclude Include="WeakMonsterCreator.hpp" />
     <ClInclude Include="Weapon.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

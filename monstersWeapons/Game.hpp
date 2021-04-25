@@ -5,14 +5,16 @@ class Monster;
 
 class Game {
 private:
-    int enemiesNumber;
+    short enemiesNumber;
+    short difficulty;
     Player* player;
     std::vector<Monster*> enemies;
 
-    void createEntities(const short& monstersNumber);
+    void chooseDifficulty();
+    void randomiseMonsters();
+    void initEntities();
 
 public:
     ~Game();
-    int Run();
-
+    short Run();
 };

@@ -21,13 +21,13 @@
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="weakMonster.cpp">
+    <ClCompile Include="WeakMonster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="normalMonster.cpp">
+    <ClCompile Include="NormalMonster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="strongMonster.cpp">
+    <ClCompile Include="StrongMonster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
@@ -47,22 +47,34 @@
     <ClInclude Include="Player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="weakMonster.hpp">
+    <ClInclude Include="WeakMonster.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Weapon.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="normalMonster.hpp">
+    <ClInclude Include="NormalMonster.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="strongMonster.hpp">
+    <ClInclude Include="StrongMonster.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clearScreen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterCreator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakMonsterCreator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMonsterCreator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongMonsterCreator.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
