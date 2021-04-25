@@ -1,10 +1,10 @@
 #include "Player.hpp"
 #include "Weapon.hpp"
 
-int Player::attack(Entity* monster) {
-    int dealtDmg = 0;
+short Player::attack(Entity* monster) {
+    short dealtDmg = 0;
     if (weapon) {
-        dealtDmg = damage + 0.5 * weapon->getDamage();
+        dealtDmg = short(damage + 0.5 * weapon->getDamage());
         weapon->reduceDurability(3);
         if (weapon->getDurability() <= 0) {
             delete weapon;
@@ -12,7 +12,7 @@ int Player::attack(Entity* monster) {
         }
     }
     else
-        dealtDmg = 0.8 * damage;
+        dealtDmg = short(0.8 * damage);
 
     monster->reduceHealth(dealtDmg);
 

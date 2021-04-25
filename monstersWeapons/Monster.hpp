@@ -3,6 +3,6 @@
 
 class Monster :public Entity {
 public:
-    Monster(const int& h, const int& d, Weapon* w, const TYPE& t) : Entity(h, d, w, t) {}
-    virtual int attack(Entity*) = 0;
+    Monster(const short& h, const short& d, Weapon* w, const TYPE& t) : Entity(h, d, w, t) {}
+    virtual short attack(Entity*) = 0;
 };

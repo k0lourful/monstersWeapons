@@ -1,10 +1,10 @@
-#include "strongMonster.hpp"
+#include "StrongMonster.hpp"
 #include "Weapon.hpp"
 
-int strongMonster::attack(Entity* player) {
-    int dealtDmg = 0;
+short StrongMonster::attack(Entity* player) {
+    short dealtDmg = 0;
     if (weapon) {
-        dealtDmg = damage + 0.5 * weapon->getDamage();
+        dealtDmg = short(damage + 0.5 * weapon->getDamage());
         weapon->reduceDurability(2);
         if (weapon->getDurability() <= 0) {
             delete weapon;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Monster.hpp"
 
-class strongMonster :public Monster {
+class StrongMonster :public Monster {
 public:
-    strongMonster(const int& h, const int& d, Weapon* w) : Monster(h, d, w, STRONGMONSTER) {}
-    int attack(Entity*);
+    StrongMonster(const short& h, const short& d, Weapon* w) : Monster(h, d, w, TYPE::STRONGMONSTER) {}
+    short attack(Entity*);
 };

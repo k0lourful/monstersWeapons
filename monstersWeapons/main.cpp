@@ -2,7 +2,7 @@
 
 int main() {
     Game game;
-    int retCode = game.Run();
+    short retCode = game.Run();
     if (retCode)
         std::cout << "Game shut down incorrectly. Error code: " << retCode << "\n\n";
 
