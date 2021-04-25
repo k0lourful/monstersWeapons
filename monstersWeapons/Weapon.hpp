@@ -8,5 +8,5 @@ public:
     Weapon(const int& dmg, const int& dur) : damage(dmg), durability(dur) {}
     int getDamage() const { return damage; }
     int getDurability() const { return durability; }
-    int reduceDurability(const int& dmg) { durability -= dmg; }
+    int reduceDurability(const int& dmg) { return durability -= dmg; }
 };
